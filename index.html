@@ -13,29 +13,29 @@
 
 <body>
     <h1>Calculator</h1>
-    <h2>Esto es un prototipo</h2>
     <div class="Calculator">
-            <div class = "display"></div>
             <input class = "ValueDisplay" id="Display" readonly>
             <div id="Buttons">
-                <button onclick="ShowOnDisplay('+')"></button>
-                <button onclick="ShowOnDisplay('7')"></button>
-                <button onclick="ShowOnDisplay('8')"></button>
-                <button onclick="ShowOnDisplay('9')"></button>
-                <button onclick="ShowOnDisplay('-')"></button>
-                <button onclick="ShowOnDisplay('4')"></button>
-                <button onclick="ShowOnDisplay('5')"></button>
-                <button onclick="ShowOnDisplay('6')"></button>
-                <button onclick="ShowOnDisplay('*')"></button>
-                <button onclick="ShowOnDisplay('1')"></button>
-                <button onclick="ShowOnDisplay('2')"></button>
-                <button onclick="ShowOnDisplay('3')"></button>
-                <button onclick="ShowOnDisplay('/')"></button>
-                <button onclick="ShowOnDisplay('0')"></button>
-                <button onclick="ShowOnDisplay('.')"></button>
+                <button onclick="ShowOnDisplay('+')" class="operator-button">+</button>
+                <button onclick="ShowOnDisplay('7')">7</button>
+                <button onclick="ShowOnDisplay('8')">8</button>
+                <button onclick="ShowOnDisplay('9')">9</button>
+                <button onclick="ShowOnDisplay('-')"class="operator-button">-</button>
+                <button onclick="ShowOnDisplay('4')">4</button>
+                <button onclick="ShowOnDisplay('5')">5</button>
+                <button onclick="ShowOnDisplay('6')">6</button>
+                <button onclick="ShowOnDisplay('*')"class="operator-button">*</button>
+                <button onclick="ShowOnDisplay('1')">1</button>
+                <button onclick="ShowOnDisplay('2')">2</button>
+                <button onclick="ShowOnDisplay('3')">3</button>
+                <button onclick="ShowOnDisplay('/')"class="operator-button">/</button>
+                <button onclick="ShowOnDisplay('0')">0</button>
+                <button onclick="calc()">=</button>
+                <button onclick="ShowOnDisplay('.')">.</button>
 
                 <button onclick="Clear()">C</button>
             </div>
     </div>
+    <script src="calculator.js"></script>
 </body>
 </html>
